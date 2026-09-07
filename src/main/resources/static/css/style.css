@@ -1,0 +1,131 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f6fc;
+    color: #2b2b33;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 32px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #1e2761;
+    margin-bottom: 4px;
+}
+
+.tagline {
+    color: #6e7a99;
+    font-style: italic;
+    margin-top: 0;
+}
+
+nav {
+    margin: 16px 0 24px;
+}
+
+nav a {
+    color: #2e74b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #2e74b5;
+    border-bottom: 1px solid #cadcfc;
+    padding-bottom: 6px;
+    margin-top: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e6f0;
+}
+
+th {
+    background: #1e2761;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background: #f3f6fc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1e2761;
+    gap: 4px;
+}
+
+input, select {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #cadcfc;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+button {
+    align-self: flex-start;
+    background: #2e74b5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e2761;
+}
+
+.message {
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.message.success {
+    background: #e3f6e3;
+    color: #1e6b1e;
+}
+
+.message.error {
+    background: #fdecec;
+    color: #a02020;
+}
+
+.empty {
+    text-align: center;
+    color: #6e7a99;
+    font-style: italic;
+}
